@@ -1,0 +1,748 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html,
+body {
+  font-family: Times, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+nav .container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  height: 60vh;
+  padding-top: 1rem;
+  background-image: url("/media/bgk-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.main img {
+  width: 2rem;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+nav {
+  color: White;
+  padding: 0.3rem 1.25rem;
+  left: 3rem;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+  font-size: 14px;
+  margin-left: 1.5rem;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.green {
+  color: #6bdcd0;
+}
+.logo {
+  position: relative;
+  display: flex;
+  width: 70px;
+  height: 30px;
+  color: #6bdcd0;
+  left: 10%;
+  top: 0;
+  margin-right: 20%;
+  margin-top: 0;
+}
+.logo img {
+  margin: 0;
+}
+.logo a {
+  display: flex;
+  position: relative;
+  margin: 0;
+}
+.logo a h3 {
+  position: relative;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  margin-top: 0%;
+  color: white;
+}
+.logo a h3:hover {
+  color: #6bdcd0;
+}
+h1,
+h2 {
+  font-size: 2.375rem;
+  line-height: 5.5rem;
+  color: #fff;
+}
+h2 {
+  font-weight: 300;
+  margin: 0;
+}
+.header_welcome {
+  position: relative;
+  display: block;
+  width: 100%;
+  top: 2%;
+}
+.main h2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 2.25rem;
+  text-align: center;
+}
+.main p {
+  position: relative;
+  display: block;
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  left: 25%;
+}
+.button {
+  position: relative;
+  display: block;
+  width: 123px;
+  height: 38px;
+  left: 45%;
+  top: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  color: #6bdcd0;
+  border: 1px solid #6bdcd0;
+}
+.button:hover {
+  color: white;
+  background-color: #6bdcd0;
+  opacity: 0.9;
+}
+.green:hover {
+  color: white;
+}
+a:hover {
+  color: #6bdcd0;
+}
+.button a:hover {
+  color: white;
+}
+.flex-container {
+  position: relative;
+  display: flex;
+  height: 60vh;
+}
+
+.logo_img {
+  position: relative;
+  display: flex;
+  width: 49%;
+  top: 0%;
+  justify-content: center;
+  align-items: center;
+}
+.logo_img img {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+.story {
+  position: relative;
+  display: block;
+  width: 49%;
+  height: 60vh;
+  text-align: left;
+}
+.story h3,
+.story p {
+  position: relative;
+  top: 25%;
+  width: 80%;
+  margin-top: 3%;
+  opacity: 0.9;
+}
+.story_button {
+  position: relative;
+  display: block;
+  width: 123px;
+  height: 38px;
+  left: 0%;
+  top: 9rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  color: #6bdcd0;
+  border: 1px solid #6bdcd0;
+}
+.story_button:hover {
+  color: white;
+  background-color: #6bdcd0;
+}
+.playVideo {
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(media/bgk-middle.png);
+}
+.play-container {
+  position: relative;
+  top: 30%;
+}
+.play-container h5 {
+  text-align: center;
+  color: white;
+  padding-top: 3%;
+}
+.play-button {
+  display: flex;
+  margin: auto;
+  margin-top: 150px;
+}
+.play-button:hover {
+  transform: scale(1.2);
+}
+
+.flex-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 210px;
+}
+.our-expertise {
+  position: relative;
+  display: block;
+  width: 100vw;
+  height: 30vh;
+  top: 60%;
+  text-align: center;
+}
+.our-expertise h3 {
+  position: relative;
+  display: block;
+  width: 100%;
+  top: 25%;
+}
+.our-expertise p {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  top: 28%;
+  opacity: 0.6;
+}
+.webdesign,
+.branding {
+  position: relative;
+  display: block;
+  width: 30%;
+  height: 200px;
+  justify-content: center;
+  border-right: 0.5px solid black;
+}
+.mobile {
+  position: relative;
+  display: block;
+  width: 30%;
+  height: 200px;
+  justify-content: center;
+}
+.searcheo,
+.game {
+  position: relative;
+  display: block;
+  width: 30%;
+  height: 200px;
+  justify-content: center;
+  border-right: 0.5px solid black;
+}
+.heart {
+  position: relative;
+  display: block;
+  width: 30%;
+  height: 200px;
+  justify-content: center;
+}
+.branding img,
+.webdesign img,
+.mobile img,
+.searcheo img,
+.game img,
+.heart img {
+  position: relative;
+  padding: 3% 10% 10% 45%;
+}
+.branding h5,
+.webdesign h5,
+.mobile h5,
+.searcheo h5,
+.heart h5,
+.game h5 {
+  position: relative;
+  text-align: center;
+}
+.branding p,
+.webdesign p,
+.mobile p,
+.searcheo p,
+.game p,
+.heart p {
+  position: relative;
+  text-align: center;
+  padding: 2% 10% 10% 15%;
+}
+.branding:hover,
+.webdesign:hover,
+.mobile:hover,
+.searcheo:hover,
+.game:hover,
+.heart:hover {
+  background-color: #6bdcd0;
+  color: white;
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: 0.4;
+}
+.our-team {
+  position: relative;
+  display: block;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10%;
+  text-align: center;
+  /*  background-image: url("/media/bgk-header");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;*/
+}
+.our-team {
+  background-image: url("/media/bgk-header.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.our-team .greet {
+  margin-top: 5%;
+}
+.our-team p {
+  color: white;
+}
+.team_members {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+}
+.team_members h5,
+.team_members p {
+  color: white;
+}
+.potrait {
+  width: 150px;
+  height: 220px;
+  border: 1px solid white;
+  margin-right: 5%;
+  cursor: pointer;
+}
+.potrait:hover {
+  transform: scale(1.1);
+  border-color: #6bdcd0;
+}
+.potrait img {
+  border-radius: 4%;
+  width: 100%;
+  padding-right: 3px;
+  background-size: cover;
+}
+.potrait h4 {
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.potrait p {
+  color: #f4f4f4;
+  opacity: 0.8;
+}
+.hiring {
+  position: relative;
+  display: block;
+  width: 180px;
+  height: 40px;
+  left: 40%;
+  margin-top: 2%;
+  padding: 1% 2% 2% 2%;
+  color: #6bdcd0;
+  border: 1px solid #6bdcd0;
+}
+.hiring:hover {
+  color: white;
+  background-color: #6bdcd0;
+}
+.contact-us {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+}
+input[type="text"],
+select,
+textarea {
+  display: block;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  /*  border: 1px solid #ccc;  / Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+h3 {
+  color: rgb(75, 74, 74);
+  padding-bottom: 2%;
+}
+
+input[type="submit"] {
+  color: rgb(33, 201, 187);
+  padding: 12px 20px;
+  border: 2px solid #6bdcd0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-style: bold;
+  width: 30%;
+  background-color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #6bdcd0;
+  color: white;
+}
+.border_color {
+  border: 2px solid #ccc;
+  outline: none;
+}
+.border_color:focus {
+  border: 3px solid #6bdcd0;
+}
+.form-container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 381.64px;
+  min-width: 100px;
+  display: block;
+  position: relative;
+  top: 12%;
+  left: 10%;
+}
+.contact-form h3 {
+  color: black;
+  padding-bottom: 2%;
+}
+.contact-form textarea {
+  resize: none;
+  min-width: 200px;
+  min-height: 200px;
+}
+/*.contact-form #name:focus {
+  border: 1px solid #6bdcd0;
+}
+*/
+.client {
+  position: relative;
+  display: flex;
+  width: 49%;
+  justify-content: center;
+}
+.happy-clients {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 100vh;
+  top: 12%;
+}
+.happy-clients img {
+  width: 100px;
+  height: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 10%;
+}
+.lr {
+  margin-top: 3%;
+}
+
+footer {
+  position: relative;
+  color: rgb(128, 125, 125);
+  margin-top: 0%;
+  padding-top: 70px;
+  flex-flow: column;
+  align-items: center;
+  justify-items: center;
+  width: 100vw;
+  background: url("/media/bgk-footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 100vh;
+  background: url("/media/bgk-footer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  */
+}
+footer h3 {
+  color: white;
+}
+footer p {
+  color: white;
+  opacity: 0.7;
+}
+
+footer .content .our-studio .location img,
+footer .content .our-studio .phone-number img {
+  height: 19px;
+  margin-right: 10px;
+}
+.flex-container2 {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+  justify-content: center;
+}
+.basis {
+  width: 30vw;
+  margin-left: 5%;
+}
+.info-1 {
+  display: block;
+}
+.info-1 p {
+  width: 20vw;
+  margin-top: 10%;
+}
+.tajam {
+  display: flex;
+}
+.tajam h3 {
+  position: relative;
+  left: 5%;
+  margin-top: 5%;
+  color: #6bdcd0;
+}
+.our-studio h3 {
+  text-align: left;
+  padding-top: 15px;
+}
+.location a {
+  display: flex;
+  position: relative;
+  width: 23vw;
+  margin-top: 12%;
+}
+.location img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5%;
+}
+.phone-number a {
+  display: flex;
+  position: relative;
+  margin-top: 5%;
+}
+.phone-number img {
+  margin-right: 5%;
+}
+.stay-touch h3 {
+  padding-top: 15px;
+}
+#newsletter {
+  width: 50%;
+  margin-top: 12%;
+}
+.social-media-icons {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  margin-top: 18%;
+}
+.social-media-icons div {
+  padding-left: 2%;
+}
+.social-media-icons img:hover {
+  transform: scale(1.1);
+}
+.subscribe-form {
+  display: flex;
+  position: relative;
+  height: 40px;
+}
+.subscribe-form input {
+  height: 30px;
+}
+.mail-airplane {
+  position: relative;
+  display: flex;
+  width: 50px;
+  height: 30px;
+  margin-top: 12%;
+  margin-left: 2%;
+  background-color: #c4c4c4;
+  opacity: 0.6;
+  border-radius: 2px;
+}
+.mail-airplane:hover {
+  opacity: 1;
+}
+.mail-airplane img {
+  height: 100%;
+  padding: 5px 10px 5px 10px;
+}
+.bottom {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  left: 0;
+}
+.bottom ul {
+  position: relative;
+  margin-bottom: 5%;
+  padding-left: 0;
+}
+.bottom li {
+  width: 180px;
+  height: 50px;
+  color: white;
+  margin: 0;
+  justify-content: center;
+}
+.bottom li:hover {
+  color: #6bdcd0;
+}
+.copyright {
+  position: relative;
+  margin-left: 30%;
+}
+.copyright p {
+  color: white;
+}
+
+/* for mobile functions */
+@media only screen and (max-width: 600px) {
+  .contact-us .contact-form {
+    margin: 0;
+    width: 50%;
+  }
+  .contact-us {
+    display: block;
+    height: 130vh;
+  }
+  .contact-form {
+    left: 25%;
+    width: 80%;
+    top: 5%;
+  }
+  .client {
+    display: flex;
+    width: 80%;
+    top: 10%;
+    left: 25%;
+  }
+  .happy-clients {
+    display: flex;
+    width: 100%;
+    left: 0;
+  }
+  .happy-clients img {
+    width: 50px;
+    height: 20px;
+    margin-top: 10%;
+  }
+  .lr {
+    margin-top: 12.5%;
+  }
+  .our-team {
+    height: 200vh;
+    margin-top: 10%;
+    text-align: center;
+    /*  background-image: url("/media/bgk-header");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;*/
+  }
+  .our-team .greet {
+    margin-top: 5%;
+    font-size: 1.5rem;
+  }
+
+  .team_members {
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    height: 50vh;
+    top: 22%;
+  }
+  .potrait {
+    width: 150px;
+    height: 220px;
+    margin-right: 0%;
+    margin-top: 5%;
+  }
+  .joining {
+    position: relative;
+    width: 400px;
+    top: 45%;
+    left: 4%;
+  }
+
+  .hiring {
+    left: 30%;
+    top: 50%;
+    padding: 2% 2% 2% 2%;
+  }
+  .hiring:hover {
+    color: white;
+    background-color: #6bdcd0;
+  }
+  input[type="submit"] {
+    color: rgb(33, 201, 187);
+    padding: 12px 10px;
+  }
+}
